@@ -111,6 +111,6 @@ app.post('/:webname', async (req, res) => {
     res.redirect("/" + webpage);
 });
 
-app.listen(process.ev.PORT||3000, () => {
+app.listen(3000, () => {
     console.log("Server started on port 3000");
 });
